@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2023-09-15T20:46:24.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="qYkAlTCVIsl9eyDMh6yf" version="21.7.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1024" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-0" value="Livro" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="340" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-1" value="&lt;div&gt;codigo_livro&lt;br&gt;&lt;/div&gt;&lt;div&gt;titulo&lt;/div&gt;&lt;div&gt;situação&lt;/div&gt;&lt;div&gt;codigo_editora&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Hti1if6-eCWXI2BdiCpx-0">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-16" value="Autor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="680" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-17" value="&lt;div&gt;codigo_autor&lt;/div&gt;&lt;div&gt;nome&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Hti1if6-eCWXI2BdiCpx-16">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-18" value="Emprestimo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="510" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-19" value="&lt;div&gt;codigo_emprestimo&lt;/div&gt;&lt;div&gt;codigo_livro&lt;/div&gt;&lt;div&gt;CPF&lt;/div&gt;&lt;div&gt;data_emprestimo&lt;/div&gt;&lt;div&gt;data_entrega&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Hti1if6-eCWXI2BdiCpx-18">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-21" value="Editora" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="670" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-22" value="&lt;div&gt;codigo_editora&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Hti1if6-eCWXI2BdiCpx-21">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-23" value="Livro - Autor" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="510" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hti1if6-eCWXI2BdiCpx-24" value="&lt;div&gt;codigo_livro&lt;/div&gt;&lt;div&gt;codigo_autor&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="Hti1if6-eCWXI2BdiCpx-23">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
